@@ -1,0 +1,27 @@
+import matplotlib.pyplot as plt
+import math
+import numpy as np
+
+angulo_graus = 90
+x = np.linspace(0, 10, 100)
+y1 = np.sin(x)
+y2 = np.cos(x)
+
+
+fig, ax = plt.subplots()
+
+ax.plot(x, y1 , label = 'Seno', color='b', linewidth=2, linestyle='-')
+ax.plot(x+4, y2 , label= 'Cosseno', color='r', linewidth=2, linestyle='--')
+
+ax.set_title( "Funções trigonométricas", color='g', fontsize=16, fonteweight='bold')
+ax.set_xlabel('Eixo X', fontsize=14)
+ax.set_ylabel("Eixo Y", fontsize=14)
+
+ax.grid(True, which='both', linestyle='--', linewidth=0.5)
+
+ax.spines['top'].set_visible(False)
+ax.spines['right'].set_visible(False)
+
+ax.legend(loc='upper right', fontsize = 12)
+
+plt.show()
