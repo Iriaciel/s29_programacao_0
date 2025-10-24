@@ -1,0 +1,15 @@
+ORGANIZEM-SE EM GRUPOS
+Reúnam-se em grupos de quatro alunos.
+
+OBSERVE E ANALISE
+Analisem o código e a imagem gerada apresentados no slide anterior.
+
+MOMENTO DA AÇÃO
+Modifiquem a imagem com os seguintes pontos:
+
+O título na cor verde;
+Os rótulos dos eixos devem ser "Eixo X" e "Eixo Y";
+Deve haver uma linha amarela pontilhada em X = 4;
+As marcações do eixo Y devem estar rotacionadas em 90 graus.
+ENTREGA
+Envie o arquivo em .ipynb no AVA.
